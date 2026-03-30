@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Noto Sans Ethiopic', system-ui, sans-serif;
+}
+
+.ethio-gradient {
+  background: linear-gradient(135deg, #8B0000 0%, #FF8C00 100%);
+}
