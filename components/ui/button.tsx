@@ -1,6 +1,6 @@
-import { ButtonHTMLAttributes } from 'react';
+import { buttonHTMLAttributes } from 'react';
 
-export function Button({ children, className = "", ...props }: ButtonHTMLAttributes<HTMLButtonElement>) {
+export function button({ children, className = "", ...props }: buttonHTMLAttributes<HTMLButtonElement>) {
   return (
     <button
       className={`px-6 py-3 rounded-xl font-medium transition-all active:scale-95 ${className}`}
