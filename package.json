@@ -1,17 +1,17 @@
 {
-  "name": "ethiovideo-ai",
+  "name": "ethiovideo-ai-frontend",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "14.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "^15.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@clerk/nextjs": "^7.0.7",
     "tailwindcss": "^3.4.0",
     "lucide-react": "^0.441.0",
     "zod": "^3.23.0",
@@ -19,10 +19,10 @@
     "@hookform/resolvers": "^3.9.0"
   },
   "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^18.3.1",
     "typescript": "^5.6.0",
-    "@types/node": "^22.0.0",
-    "@types/react": "^18.0.0",
-    "postcss": "^8.0.0",
-    "autoprefixer": "^10.0.0"
+    "postcss": "^8",
+    "autoprefixer": "^10"
   }
 }
