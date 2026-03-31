@@ -1,6 +1,6 @@
 'use client';
 import { useUser } from '@clerk/nextjs';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { useState } from 'react';
 
 export default function CreditsPage() {
