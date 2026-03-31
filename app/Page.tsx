@@ -1,7 +1,3 @@
-
-
-#### `app/page.tsx` – **Landing / Marketing Page**
-```tsx
 'use client';
 import Link from 'next/link';
 import { Play, Globe, Zap, Users } from 'lucide-react';
