@@ -1,17 +1,14 @@
-import type { Metadata } from 'next';
+// app/layout.tsx
 import './globals.css';
 import { ClerkProvider } from '@clerk/nextjs';
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'EthioVideo AI – Cinematic Videos in Ethiopian Languages',
   description: 'Create professional Amharic, Afaan Oromo, Somali & Tigrinya videos with AI',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <ClerkProvider>
       <html lang="en" className="dark">
